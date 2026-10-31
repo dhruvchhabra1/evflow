@@ -185,5 +185,3 @@ function filterStations(list, { type, freeOnly }) {
     return true;
   });
 }
-
-module.exports = { STATIONS, STATIONS_AS_OF, directionsUrl, stationMaxKw, stationFree, sortStations, filterStations };
